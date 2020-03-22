@@ -21,5 +21,5 @@ memdump <pid> <ip-address> <port>
 2. Run `adb [-s device] push libs/<architecture>/memdump /data/local/tmp`
 3. Run `adb [-s device] shell`
 4. Run `chmod +x /data/local/tmp/memdump`
-5. Run `/data/local/tmp/memdump <pid> <ip-address> <port>`
-6. If it fails, retry as root: `su -c "/data/local/tmp/memdump <pid> <ip-address> <port>"`
+5. Run `/data/local/tmp/memdump <pid> [<ip-address> <port>]`
+6. If it fails, retry as root: `su -c "/data/local/tmp/memdump <pid> [<ip-address> <port>]"`
